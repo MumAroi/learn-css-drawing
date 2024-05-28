@@ -1,5 +1,7 @@
 {
     "commit_type": {
+        "enable": true,
+        "initial_value": "feat",
         "append_emoji_to_label": true,
         "append_emoji_to_commit": false,
         "options": [
