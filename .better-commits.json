@@ -3,76 +3,7 @@
         "enable": true,
         "initial_value": "feat",
         "append_emoji_to_label": true,
-        "append_emoji_to_commit": false,
-        "options": [
-            {
-                "value": "feat",
-                "label": "feat",
-                "hint": "A new feature",
-                "emoji": "✨",
-                "trailer": "Changelog: feature"
-            },
-            {
-                "value": "fix",
-                "label": "fix",
-                "hint": "A bug fix",
-                "emoji": "🐛",
-                "trailer": "Changelog: fix"
-            },
-            {
-                "value": "docs",
-                "label": "docs",
-                "hint": "Documentation only changes",
-                "emoji": "📚",
-                "trailer": "Changelog: documentation"
-            },
-            {
-                "value": "refactor",
-                "label": "refactor",
-                "hint": "A code change that neither fixes a bug nor adds a feature",
-                "emoji": "🔨",
-                "trailer": "Changelog: refactor"
-            },
-            {
-                "value": "perf",
-                "label": "perf",
-                "hint": "A code change that improves performance",
-                "emoji": "🚀",
-                "trailer": "Changelog: performance"
-            },
-            {
-                "value": "test",
-                "label": "test",
-                "hint": "Adding missing tests or correcting existing tests",
-                "emoji": "🚨",
-                "trailer": "Changelog: test"
-            },
-            {
-                "value": "build",
-                "label": "build",
-                "hint": "Changes that affect the build system or external dependencies",
-                "emoji": "🚧",
-                "trailer": "Changelog: build"
-            },
-            {
-                "value": "ci",
-                "label": "ci",
-                "hint": "Changes to our CI configuration files and scripts",
-                "emoji": "🤖",
-                "trailer": "Changelog: ci"
-            },
-            {
-                "value": "chore",
-                "label": "chore",
-                "hint": "Other changes that do not modify src or test files",
-                "emoji": "🧹",
-                "trailer": "Changelog: chore"
-            },
-            {
-                "value": "",
-                "label": "none"
-            }
-        ]
+        "append_emoji_to_commit": true
     },
     "commit_scope": {
         "enable": true,
